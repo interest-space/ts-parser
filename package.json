@@ -1,0 +1,47 @@
+{
+  "name": "ts-parser",
+  "version": "1.0.0",
+  "description": "A tool that parses TypeScript descriptions into json.",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "watch": "rollup -cw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/interest-space/ts-parser.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "parser",
+    "babel"
+  ],
+  "author": "samcaobest@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/interest-space/ts-parser/issues"
+  },
+  "homepage": "https://github.com/interest-space/ts-parser#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/node": "^17.0.34",
+    "@typescript-eslint/eslint-plugin": "^5.25.0",
+    "@typescript-eslint/parser": "^5.25.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "mocha": "^10.0.0",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.73.0",
+    "rollup-plugin-cleanup": "^3.2.1",
+    "rollup-plugin-dts": "^4.2.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4"
+  }
+}
