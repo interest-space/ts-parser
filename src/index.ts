@@ -1,21 +1,11 @@
 
-import { ProgramDesc } from './type';
+import { getAstByPath } from './getAstByPath';
 
-export const getAstByPath = (path: string): void => {
+const res = getAstByPath('../../__test__/getAstByPath.test.ts')
+console.log(res, 'res')
 
-}
+export { getAstByPath }
 
-export const getPropsNameByPath = (path: string): void => {
-
-}
-
-export const getPropsNameByAst = (path: string): void => {
-
-}
-
-export const getTSDescByName = (astName: string, { astProgramBody, astProgramMap }: ProgramDesc): void => {
-
-}
 
 
 
