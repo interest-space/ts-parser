@@ -4,8 +4,6 @@ import * as path from 'path';
 import * as parser from "@babel/parser";
 import * as t from "@babel/types";
 
-const extList = ['.js', '.tsx', '.d.ts', '.jsx', '.ts'];
-
 const getAstNodeName = (astNode: any): string | null => {
   const { id } = astNode;
   if (id && id.name) {
