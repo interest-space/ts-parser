@@ -1,6 +1,6 @@
 
 import * as fs from 'fs';
-import * as path from 'path';
+// import * as path from 'path';
 import * as parser from "@babel/parser";
 import * as t from "@babel/types";
 
